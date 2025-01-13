@@ -8,9 +8,12 @@
     --highlight: #FFB703; /* Golden Yellow */
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* General Body */
 body {
-    background-color: var(--primary-bg);
     color: var(--text-primary);
     font-family: 'Roboto', sans-serif;
 }
@@ -20,7 +23,10 @@ body {
     background-color: var(--primary-accent);
 }
 
-/* index.html */
+/* Main Section */
+#mainpage {
+    background-color: var(--primary-bg);
+}
 .line1 {
     color: var(--primary-accent);
     
@@ -36,4 +42,46 @@ body {
 .line4 {
     color: var(--text-secondary);
 }
+/* About Section */
+#about {
+    background-color: var(--text-primary);
+    color: var(--primary-accent);
+}
+p.custom-bullet-one::before {
+    content: '\f0c8';  /* Icon: FontAwesome's 'check-circle' */
+    font-family: 'Font Awesome 5 Free';  /* FontAwesome class */
+    font-weight: 900;
+    margin-right: 10px;
+    color: var(--highlight);  /* Color for the icon */
+}
+p.custom-bullet-two::before {
+    content: '\f05a';  /* Icon: FontAwesome's 'coffee' */
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-right: 10px;
+    color: var(--highlight);  /* Tomato color for the icon */
+}
+p.custom-bullet-three::before {
+    content: '\f0c0';  /* Icon: FontAwesome's 'users' */
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-right: 10px;
+    color: var(--highlight);  /* Green for the icon */
+}
+p.custom-bullet-four::before {
+    content: '\f0f3';  /* Icon: FontAwesome's 'lightbulb' */
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-right: 10px;
+    color: var(--highlight);  /* Yellow for the icon */
+}
 
+/* Projects Section */
+#projects {
+    background-color: var(--highlight);
+    color: var(--primary-bg);
+}
+/* Contact Section */
+#contact {
+    background-color: var(--secondary-accent);
+}
