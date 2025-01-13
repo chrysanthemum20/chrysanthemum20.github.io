@@ -1,0 +1,39 @@
+:root {
+    --primary-bg: #121212; /* Soft Black */
+    --secondary-bg: #1A1A1A; /* Very Dark Gray */
+    --primary-accent: #1E6091; /* Royal Blue */
+    --secondary-accent: #71C7EC; /* Sky Blue */
+    --text-primary: #E0E1DD; /* Light Grayish White */
+    --text-secondary: #A4A6A9; /* Muted Gray */
+    --highlight: #FFB703; /* Golden Yellow */
+}
+
+/* General Body */
+body {
+    background-color: var(--primary-bg);
+    color: var(--text-primary);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--primary-accent);
+}
+
+/* index.html */
+.line1 {
+    color: var(--primary-accent);
+    
+}
+.line2 {
+    color: var(--text-primary);
+    font-weight: 300;
+}
+.line3 {
+    color: var(--highlight);
+    font-weight: 500;
+}
+.line4 {
+    color: var(--text-secondary);
+}
+
