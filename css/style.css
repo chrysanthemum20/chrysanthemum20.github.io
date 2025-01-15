@@ -83,5 +83,5 @@ p.custom-bullet-four::before {
 }
 /* Contact Section */
 #contact {
-    background-color: var(--secondary-accent);
+    background-color: var(--secondary-bg);
 }
